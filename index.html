@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yeşil Bakery · Trabzon'un Marka Kruvasan Dükkanı</title>
+    <meta
+      name="description"
+      content="Yeşil Bakery — Trabzon'un marka kruvasan dükkanı. Her gün taze, saat 13:00'te fırından. Uzun Sokak No:10/B, Ortahisar / Trabzon."
+    />
+    <meta name="theme-color" content="#17411b" />
+
+    <!-- Link önizlemesi (WhatsApp, Instagram, Facebook, X). Adres .env içindeki VITE_SITE_URL'den gelir. -->
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Yeşil Bakery" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:title" content="Yeşil Bakery · Trabzon'un Marka Kruvasan Dükkanı" />
+    <meta
+      property="og:description"
+      content="Her gün saat 13:00'te fırından taze kruvasan. Çilekli, Antep fıstıklı, çikolatalı ve daha fazlası. Uzun Sokak, Trabzon."
+    />
+    <meta property="og:image" content="%VITE_SITE_URL%/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Yeşil Bakery logosu: Trabzon'un marka kruvasan dükkanı, her gün 13:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yeşil Bakery · Trabzon'un Marka Kruvasan Dükkanı" />
+    <meta name="twitter:description" content="Her gün saat 13:00'te fırından taze kruvasan. Uzun Sokak, Trabzon." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og-image.jpg" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- İşletme bilgisi (Google için yapılandırılmış veri). Kaynak: Google Haritalar kaydı, 14 Kasım 2026. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Bakery",
+        "@id": "%VITE_SITE_URL%/#isletme",
+        "name": "Yeşil Bakery",
+        "description": "Trabzon'un marka kruvasan dükkanı. Her gün saat 13:00'te fırından taze kruvasan; günün ürünleri tükenene kadar açık.",
+        "url": "%VITE_SITE_URL%/",
+        "logo": "%VITE_SITE_URL%/brand/logo.png",
+        "image": ["%VITE_SITE_URL%/og-image.jpg", "%VITE_SITE_URL%/images/foto/hero.jpg"],
+        "telephone": "+90 532 607 27 89",
+        "priceRange": "₺250+",
+        "servesCuisine": ["Kruvasan", "Pastane"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kemerkaya Mah., Uzun Sokak No:10/B",
+          "addressLocality": "Ortahisar",
+          "addressRegion": "Trabzon",
+          "addressCountry": "TR"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 41.0050447, "longitude": 39.7295085 },
+        "hasMap": "https://maps.google.com/?cid=6870060247599163166",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "13:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/yesil.bakery/", "https://maps.google.com/?cid=6870060247599163166"]
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
