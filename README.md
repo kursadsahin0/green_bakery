@@ -2,6 +2,8 @@
 
 Trabzon'daki Yeşil Bakery kruvasan dükkanı için tek sayfalık tanıtım sitesi. Ürünleri, dükkanın hikâyesini, Google yorumlarını ve konumu tek sayfada sunar.
 
+**Canlı:** https://yesilbakery.netlify.app
+
 ## Özellikler
 
 - **Ürünler:** Kruvasan ve rulo çeşitleri, fiyat bilgisiyle
